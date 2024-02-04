@@ -2,3 +2,178 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+:root{
+    --primary-color:#ff42a5;
+    --secondary-color:#4ec5f7;
+    --text-color:#534c64;
+    --background-color:#fff9fc;
+    --nav-social-icon-color:#e7e6e9;
+    --white-color:#fff;
+    --black-color:#000;
+   
+}
+
+span{
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.text-primary{
+    color: var(--text-color);
+}
+.btn-primary{
+    background: var(--primary-color);
+    color:var(--white-color);
+    padding: .8rem 1.5rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+}
+.btn-secondary{
+    background: var(--secondary-color);
+    color:var(--white-color);
+    padding: .8rem 1.5rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+}
+.section-title-title{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.text-secondary{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+
+
+/* main section related css style start here */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.icon img{
+    height: 1.5rem;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.our-info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.our-social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--nav-social-icon-color);
+    padding:.2rem 1.5rem;
+    border-radius: 5px;
+}
+
+/* banner section */
+
+
+.goat{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.buttons{
+    display:flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-text-container{
+    min-width: 900px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40rem;
+}
+
+.banner-img{
+    padding-right: 40rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
+
+/*we are gamer section */
+.we-are-gamer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    align-items: center;
+
+}
+
+
+.gamer-dialog{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-top: 0;
+}
+.gamer-text-container{
+    text-align: right;
+}
+.gamer-text-container{
+    width: 33rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:576px) {
+
+    nav{
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .navigation{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    
+    }
+    
+}
