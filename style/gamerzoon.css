@@ -41,7 +41,7 @@ span{
     border: none;
 }
 .section-title-title{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2rem;
     margin-bottom: 0;
 }
@@ -153,9 +153,48 @@ nav{
     width: 33rem;
 }
 
+/* online game section */
+/* .text-hover:hover{
+    position: relative;
+    bottom: 50%;
+    color: var(--primary-color);
+    text-align: center;
+    width: 340px;
+    height: 100%;
+    
+} */
+
+.online-game{
+    margin-top: 6rem;
+}
+.card{
+    width: 340px;
+    cursor: pointer;
+
+}
+.onlien-game-card-img:hover{
+    border: 5px solid var(--primary-color);
+    border-radius: 1.5rem;
+    
+    .text-hover{
+        display: block;
+        
+    }
+
+}
+.online-game-card{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.onlien-game-text{
+    text-align: center;
+
+}
 
 
-
+     
 
 
 
