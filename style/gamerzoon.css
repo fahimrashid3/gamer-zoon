@@ -197,11 +197,9 @@ nav{
     text-align: center;
 
 }
-.onlien-game-text{
-    text-align: center;
-}
 
-/* online play section start */
+
+/* online play section start (1st section*/
 .play-online{
     margin-top: 8rem;
     display: flex;
@@ -222,6 +220,31 @@ nav{
 #play-online-img-relative{
     position: relative;
    left: 200px;
+    top: 100px;
+}
+     
+
+/*play game online  section start (2st section*/
+.play-game-online{
+    margin-top: 15rem;
+    display: flex;
+    padding-left: 15rem;
+    align-items: center;
+}
+
+.play-game-online-text h2{
+    width: 250px;
+    text-align: left;
+    padding-right: 50px;
+}
+.play-game-online-text p{
+    text-align: left;
+        width: 300px;
+
+}
+#play-game-online-img-relative{
+    position: relative;
+   right: 200px;
     top: 100px;
 }
      
