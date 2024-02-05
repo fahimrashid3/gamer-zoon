@@ -13,19 +13,40 @@
    
 }
 
+/* text related style */
+
 span{
     color: var(--primary-color);
     padding: 0;
     margin: 0;
     background: linear-gradient(180deg, var(--primary-color),#a055e4);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+.section-title{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 0;
 }
 
 .text-primary{
     color: var(--text-color);
 }
+
+.text-secondary{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.text-semi-bold{
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 10px;
+    color: var(--white-color);
+
+}
+/* button related style */
 .btn-primary{
     background: var(--primary-color);
     color:var(--white-color);
@@ -62,15 +83,6 @@ span{
 
 }
 
-.section-title{
-    font-weight: 800;
-    font-size: 2rem;
-    margin-bottom: 0;
-}
-.text-secondary{
-    color: var(--text-color);
-    font-size: 1.5rem;
-}
 
 
 
@@ -87,9 +99,22 @@ nav{
     align-items: center;
     gap: .5rem;
 }
-
+.our-info{
+    cursor: pointer;
+}
+.our-social i{
+    cursor: pointer;
+}
 .icon img{
     height: 1.5rem;
+}
+.icon-logo{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#G{
+    color: var(--primary-color);
+    margin: 0;
 }
 .navigation{
     display: flex;
@@ -124,7 +149,7 @@ nav{
 
 
     background: linear-gradient(180deg, var(--primary-color),#a055e4);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
@@ -201,18 +226,18 @@ nav{
     cursor: pointer;
 
 }
+.online-game-card-img{
+    margin: 1rem;
+}
+
 .online-game-card-img:hover{
     border: 5px solid var(--primary-color);
     border-radius: 1.5rem;
-   opacity:0.6;
+    opacity:0.6;
     background: var(--black-color);
-    
+    margin: .5rem;
 }
-.online-game-card-img:hover .text-hover{
-    opacity: 1;
-    
-    
-}
+
 
 .online-game-card{
     display: flex;
@@ -299,13 +324,7 @@ nav{
 .careers-location{
     text-align: right;
 }
-.text-careers{
-    font-weight: 600;
-    color: var(--text-color);
-    margin: 10px;
-    color: var(--white-color);
 
-}
 .careeres-discription{
     color: var(--white-color);
 
@@ -315,6 +334,31 @@ nav{
     margin-left: 100px;
 
 }
+
+/*  game type related css style */
+.game-type{
+    margin: 100px 200px;
+}
+
+.game-type-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    justify-content: center;
+}
+
+.game-card{
+    display: flex;
+    gap: .5rem;
+    padding: 1rem;
+
+}
+.game-card:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 10rem;
+    padding: .5rem;
+}
+
 
 
 
