@@ -381,20 +381,7 @@ footer{
     margin-bottom: 0;
     padding-bottom: 0;
 }
-/* .icon-text-footer{
-   
-    color:var(--white-color);
-    font-weight: 700;
-    font-size: 2.5rem;
-    
-}
-#logo-img-footer{
-    height: 2rem;
-}
-.icon-footer{
-    display: flex;
-    justify-content: center;
-} */
+
 .website-feature ul{
     display: flex;
     color: var(--white-color);
@@ -439,20 +426,14 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 @media screen and(max-width:576px) {
+    /* nav section */
 
     nav{
         align-items: center;
         flex-direction: column;
         padding: 2rem 1rem;
+        margin-bottom: 4rem;
     }
     .navigation{
         flex-direction: column;
@@ -460,5 +441,85 @@ footer{
         gap: 1rem;
     
     }
+    /* banner sectin */
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        margin-top: .5rem;
+    }
+    /*we are gamer section */
+    .we-are-gamer{
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--background-color);
+        align-items: center;
     
+    }
+    /* online game card */
+    .online-game-card{
+        display: grid;
+        grid-template-columns: repeat(1);
+        justify-content: center;
+    }   
+    /* play online game 1st relative img */
+    .play-game-online{
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        align-items: center;
+        margin: 5rem 0;
+    }
+        /* play online game  2nd relative img */
+
+        .play-game-online{
+            margin-top: 2rem;
+            flex-direction: column;
+            padding-left: 0;
+            align-items: center;
+            margin: 5rem 0;
+        }
+        /* careers section */
+        .careers{
+            flex-direction: column;
+            padding-left:0;
+            margin-top: 0;
+            align-items: center;
+            background: var(--primary-color);
+            color: var(--white-color);
+          
+        }
+        /* game type section */
+        .game-type-div{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: .5rem;
+            justify-content: center;
+        }
+        .website-feature ul{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            color: var(--white-color);
+            list-style: none;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .footer-social-icon{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1rem;
+            justify-content: center;
+        
+        }
+        .website-security{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+            gap: 1rem;
+        }
+
 }
