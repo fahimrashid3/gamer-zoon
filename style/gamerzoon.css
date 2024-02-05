@@ -17,6 +17,10 @@ span{
     color: var(--primary-color);
     padding: 0;
     margin: 0;
+    background: linear-gradient(180deg, var(--primary-color),#a055e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .text-primary{
@@ -30,6 +34,8 @@ span{
     border-radius: 2rem;
     font-size: 1rem;
     border: none;
+    cursor: pointer;
+
 }
 .btn-secondary{
     background: var(--secondary-color);
@@ -39,6 +45,21 @@ span{
     border-radius: 2rem;
     font-size: 1rem;
     border: none;
+    cursor: pointer;
+
+}
+.btn-third{
+    background: var(--white-color);
+    color:var(--primary-color);
+    padding: .8rem 1.5rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+
+    margin-top: 3rem;
+    cursor: pointer;
+
 }
 
 .section-title{
@@ -100,6 +121,12 @@ nav{
     font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
+
+
+    background: linear-gradient(180deg, var(--primary-color),#a055e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .buttons{
@@ -247,7 +274,68 @@ nav{
    right: 200px;
     top: 100px;
 }
+
+/* careers section start here */
+.carrears-section-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.careers{
+    display: flex;
+    padding-left:100px;
+    margin-top: 100px;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--white-color);
+  
+}
+.careers-option{
+    display: flex;
+}
+.careers-aim{
+    width: 400px;
+}
+.careers-location{
+    text-align: right;
+}
+.text-careers{
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 10px;
+    color: var(--white-color);
+
+}
+.careeres-discription{
+    color: var(--white-color);
+
+}
      
+.careers-text-container{
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
